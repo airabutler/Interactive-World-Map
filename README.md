@@ -2,6 +2,15 @@
 
 This project was generated with Angular CLI version 16.2.9.
 
+
+## Installation
+
+1. Ensure you have Node.js and npm installed on your machine.
+2. Clone this repository to your local machine.
+3. Navigate to the project directory in your terminal.
+4. Run the following command to install project dependencies:
+
+
 ## Development server
 
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
@@ -13,14 +22,6 @@ Run ng generate component component-name to generate a new component. You can al
 ## Build
 
 Run ng build to build the project. The build artifacts will be stored in the dist/ directory.
-
-
-## Installation
-
-1. Ensure you have Node.js and npm installed on your machine.
-2. Clone this repository to your local machine.
-3. Navigate to the project directory in your terminal.
-4. Run the following command to install project dependencies:
 
 
 ## Running unit tests
