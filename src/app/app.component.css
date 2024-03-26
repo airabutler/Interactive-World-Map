@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: rgb(139, 129, 148);
+  }
+
+  .column {
+    flex: 0 0 20%;
+    padding: 20px;
+    letter-spacing: .4px;
+  }
+
+  .map-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(139, 129, 148);
+    background-color: rgb(139, 129, 148);
+
+  }
+
+  footer {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgb(139, 129, 148);
+    .footer-text {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        color:black
+      }
+
+      .footer-text .bold-text {
+        font-weight: bold;
+      }
+  }

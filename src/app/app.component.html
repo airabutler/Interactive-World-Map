@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="map-container">
+<app-map
+(name)="onNameChange($event)"
+(capital)="onCapitalChange($event)"
+(region)="onRegionChange($event)"
+(income)="onIncomeChange($event)"
+(lendingtype)="onLendingTypeChange($event)"
+(iso2code)="onISO2CodeChange($event)">
+</app-map>
+  </div>
+
+<div class="column">
+  <div class="country-info">
+    <app-countryinfo
+      [name]="name"
+      [capital]="capital"
+      [region]="region"
+      [income]="income"
+      [lendingType]="lendingType"
+      [iso2Code]="iso2Code">
+    </app-countryinfo> </div>
+</div>
+</div>
+
+<footer>
+  <span class="footer-text" >INFORMATION PROVIDED BY </span>
+  <a href="https://www.worldbank.org/en/home" class="footer-text">
+    <span class="bold-text">THE WORLD BANK</span>
+  </a>
+</footer>
